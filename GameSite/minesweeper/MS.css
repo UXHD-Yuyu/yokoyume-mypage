@@ -1,0 +1,41 @@
+.header {
+    color: #ffff00;
+}
+
+.header-logo {
+    color: black;
+    background-color: rgba(8, 141, 8, 0.788);
+    font-size: 65px;
+    float: left;
+    magin: 0;
+}
+
+li {
+    list-style: none;
+    color: white;
+    background-color: rgba(8, 141, 8, 0.788);
+    float: left;
+    padding: 25px;
+}
+
+.main {
+    color:grey;
+}
+
+#MENU {
+    font-size: 12.5px;
+}
+
+#Menu {
+    font-size: 12.5px;
+}
+
+.footer {
+    float: bottom;
+}
+
+.footer-logo {
+    color: white;
+    background-color: darkblue;
+    float: left;
+}
