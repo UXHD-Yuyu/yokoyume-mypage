@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+#start-btn {
+    display: inlint-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #3cb371;
+    color: #ffffff;
+    border-bottom: solid 4px #006400;
+}
+
+#reset-btn {
+    display: inlint-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #3cb371;
+    color: #ffffff;
+    border-bottom: solid 4px #006400;
+}
+
+img {
+    width: 260px;
+    height: 330px;
+}
