@@ -1,5 +1,5 @@
-window.omload = function(a) {
-    const imgsrc = new Array('img/daikiti.png','img/tyukiti.png','img/kiti.png','img/kyou.png','img/daikyou.png');
+window.omload = function() {
+    const imgsrc = new Array('daikiti.png','tyukiti.png','kiti.png','kyou.png','daikyou.png');
 
     const startBtn = document.getElementById('start-Btn');
     const resetBtn = document.getElementById('reset-btn');
@@ -15,4 +15,10 @@ window.omload = function(a) {
             alert('嫌な予感がする');
         }
     }
+
+    resetBtn.onclick = function() {
+        omikujiImg.src = resetSrc;
+    }
 }
+
+function();
