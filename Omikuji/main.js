@@ -1,27 +1,17 @@
 window.onload = function() {
-    const imgSrc = new Array('img/daikiti.png','img/tyukiti.png','img/kiti.png','img/kyou.png','img/daikyou.png');
-    const resetSrc = 'img/omikuji.png';
+    const imgSrc = new Array ('daikiti.png','tyukiti.png','kiti.png','kyou.png','daikyou.png');
+    const resetSrc = 'omikuji2.png';
 
-    const startBtn = document.getElementById('start-Btn');
+    const startBtn = document.getElementById('start-btn');
     const resetBtn = document.getElementById('reset-btn');
     const omikujiImg = document.getElementById('omikuji-img');
 
     startBtn.onclick = function() {
         const random = Math.floor(Math.random() * imgSrc.length);
         omikujiImg.src = imgSrc[random];
-
-        if (random == 0){
-            alert('良い一日になりそうだ!');
-        } else if (random == 4) {
-            alert('嫌な予感がする');
-        } else {
-            alert('noploblem');
-        }
     }
 
     resetBtn.onclick = function() {
         omikujiImg.src = resetSrc;
     }
 }
-
-function();
